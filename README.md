@@ -31,10 +31,16 @@ This tutorial outlines the implementation of on-premises Active Directory and cr
 
 <p>
 <h3>Step 1</h3>
+After you have remote into the Windows Server VM, open up the Server Manager and click on Tools and then Active Directory Users and Computers.
 </p>
 <p>
-<img src="https://i.imgur.com/2MvyY8e.png" height="80%" width="80%" alt="Configuration"/>
+<img src="https://i.imgur.com/7kxCz7J.png" height="80%" width="80%" alt="Configuration"/>
+</p>
+
+<p>
+<h3>Step 2</h3>
+Next we will create Organazation Units. In plain speak, they are similar to Folders. There are much more use cases for this but this is just an example. We are going to create two OU. One named "_EMPLOYEES" and the other named "_ADMINS". We can do this by right clicking on the domain name you created > New > Organizational Unit. 
 </p>
 <p>
-  <img src="https://i.imgur.com/51nioYx.png" height="80%" width="80%" />
-</p>
+<img src="https://i.imgur.com/5eFl4gN.png" height="80%" width="80%" />
+
