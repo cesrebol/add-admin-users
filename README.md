@@ -56,5 +56,11 @@ Create a new user in the OU "_ADMINS" by clicking on the the OU and right clicki
 We need to make Jane Doe an admin. Just because we created Jane's account in the OU named "_ADMINS" does not automatically give this user admin rights. We need to right click janes name > Properties Member Of > Add ... In the Select Group window type in "Domain" and click the "Check Names" button and select "Domain Admins" group and apply the changes.
 </p>
 <img src="https://i.imgur.com/IYvc9ny.png" height="80%" width="80%" />
+<p>
+<h3>Step 5</h3>
+Go ahead and log off this user. We will need to go back to Azure and get the Public IP address for the DC-1 VM and login with the new credentials and permissions. In this example I will be using username as : cesarsdomain.com\jane_admin and the password. To check we can go to the Command Prompt and type in the command "whoami" to verify we are in the jane_admin user.
+</p>
+<img src="https://i.imgur.com/iy6cZn5.png" height="80%" width="80%" />
+
 
 
