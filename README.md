@@ -43,4 +43,18 @@ Next we will create Organazation Units. In plain speak, they are similar to Fold
 </p>
 <p>
 <img src="https://i.imgur.com/5eFl4gN.png" height="80%" width="80%" />
+</p>
+
+<p>
+<h3>Step 3</h3>
+Create a new user in the OU "_ADMINS" by clicking on the the OU and right clicking the panel to the right. Next go to New > User.
+</p>
+<img src="https://i.imgur.com/TWsS3eF.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/ZwFObym.png" height="80%" width="80%" />
+
+<p><h3>Step 4</h3>
+We need to make Jane Doe an admin. Just because we created Jane's account in the OU named "_ADMINS" does not automatically give this user admin rights. We need to right click janes name > Properties Member Of > Add ... In the Select Group window type in "Domain" and click the "Check Names" button and select "Domain Admins" group and apply the changes.
+</p>
+<img src="https://i.imgur.com/IYvc9ny.png" height="80%" width="80%" />
+
 
